@@ -4,6 +4,7 @@ Syntax:
 sort -r filename     ->Sort file in reverse order
 
 sort -K2 filename      -> Sort by field number
+sort -t "|" -k 2 filename
 
 Syntax:
       uniq
