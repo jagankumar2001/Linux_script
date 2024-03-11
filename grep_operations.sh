@@ -11,4 +11,4 @@ grep -n keyword filename       ->  Display the matched lines and the numbers
 
 grep -v keyword filename       -> Display everything but keyword
 
-grep -i "keyword1|keyword2" filename    -> for searching 2 keywords
+egrep -i "keyword1|keyword2" filename    -> for searching 2 keywords
